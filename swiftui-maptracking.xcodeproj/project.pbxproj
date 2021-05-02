@@ -34,7 +34,7 @@
 		6B97135C26353EAC00F4C288 /* home-map-view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home-map-view.swift"; sourceTree = "<group>"; };
 		6B971361263544BE00F4C288 /* location-manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "location-manager.swift"; sourceTree = "<group>"; };
 		6B97136A26354FB100F4C288 /* gpx-models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gpx-models.swift"; sourceTree = "<group>"; };
-		6BF2501C263517160013BBAC /* assign4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assign4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF2501C263517160013BBAC /* swiftui-maptracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-maptracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF2501F263517160013BBAC /* assign4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assign4App.swift; sourceTree = "<group>"; };
 		6BF25021263517160013BBAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BF25023263517170013BBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		6BF25013263517160013BBAC = {
 			isa = PBXGroup;
 			children = (
-				6BF2501E263517160013BBAC /* assign4 */,
+				6BF2501E263517160013BBAC /* swiftui-maptracking */,
 				6BF2501D263517160013BBAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,12 +115,12 @@
 		6BF2501D263517160013BBAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BF2501C263517160013BBAC /* assign4.app */,
+				6BF2501C263517160013BBAC /* swiftui-maptracking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BF2501E263517160013BBAC /* assign4 */ = {
+		6BF2501E263517160013BBAC /* swiftui-maptracking */ = {
 			isa = PBXGroup;
 			children = (
 				6B73C68A263A48F1009FB3E3 /* extensions */,
@@ -132,7 +132,7 @@
 				6BF25028263517170013BBAC /* Info.plist */,
 				6BF25025263517170013BBAC /* Preview Content */,
 			);
-			path = assign4;
+			path = "swiftui-maptracking";
 			sourceTree = "<group>";
 		};
 		6BF25025263517170013BBAC /* Preview Content */ = {
@@ -172,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BF2501B263517160013BBAC /* assign4 */ = {
+		6BF2501B263517160013BBAC /* swiftui-maptracking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BF2502B263517170013BBAC /* Build configuration list for PBXNativeTarget "assign4" */;
+			buildConfigurationList = 6BF2502B263517170013BBAC /* Build configuration list for PBXNativeTarget "swiftui-maptracking" */;
 			buildPhases = (
 				6BF25018263517160013BBAC /* Sources */,
 				6BF25019263517160013BBAC /* Frameworks */,
@@ -184,9 +184,9 @@
 			);
 			dependencies = (
 			);
-			name = assign4;
+			name = "swiftui-maptracking";
 			productName = assign4;
-			productReference = 6BF2501C263517160013BBAC /* assign4.app */;
+			productReference = 6BF2501C263517160013BBAC /* swiftui-maptracking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6BF25017263517160013BBAC /* Build configuration list for PBXProject "assign4" */;
+			buildConfigurationList = 6BF25017263517160013BBAC /* Build configuration list for PBXProject "swiftui-maptracking" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,7 +216,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BF2501B263517160013BBAC /* assign4 */,
+				6BF2501B263517160013BBAC /* swiftui-maptracking */,
 			);
 		};
 /* End PBXProject section */
@@ -421,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BF25017263517160013BBAC /* Build configuration list for PBXProject "assign4" */ = {
+		6BF25017263517160013BBAC /* Build configuration list for PBXProject "swiftui-maptracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BF25029263517170013BBAC /* Debug */,
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6BF2502B263517170013BBAC /* Build configuration list for PBXNativeTarget "assign4" */ = {
+		6BF2502B263517170013BBAC /* Build configuration list for PBXNativeTarget "swiftui-maptracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BF2502C263517170013BBAC /* Debug */,
